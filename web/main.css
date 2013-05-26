@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lora', serif;
-	background-image: url('images/background.png');
+/* 	background-image: url('images/background.png'); */
+/* 	background-image: url('images/px_by_Gre3g.png'); */
 }
 
 a {
@@ -37,28 +38,46 @@ a:visited {
 	background-position: 50% 30%;
 	box-shadow: 0 1px 15px 4px #ccc;
 	position: relative;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 	.banner .navigation {
-		font-family: 'Yanone Kaffeesatz', sans-serif;
 		letter-spacing: 2px;
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 	}
-
-	.banner h1 {
-		font-family: 'Yanone Kaffeesatz', sans-serif;
+	
+	.banner .headline {
 		background-color: rgba(200, 200, 120, .5);
+	}
+		
+	.banner .contact {
+		font-size: 10px;
+		text-align: right;
+		padding: 25px 20px 20px 0;
+		color: white;
+	}
+
+		.banner .phone {
+			font-size: 20px;
+		}
+	
+	.banner h1 {
 		font-size: 60px;
 		letter-spacing: 15px;
 		margin-top: 0px;
-		margin-bottom: 30px;
 		line-height: 1.3em;
-		padding: 10px 20px;
+		padding: 10px 0 0 20px;
 		font-weight: normal;
 	}
 
+		.banner .strap {
+			padding: 0px 20px;
+			font-size: 20px;
+			letter-spacing: 2px;
+		}
+		
 .footer .banner {
 	height: 50px;
 	background-position: 50% 60%;
