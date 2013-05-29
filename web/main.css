@@ -9,6 +9,10 @@ a:hover {
 	color: rgb(221, 207, 42);
 }
 
+.dark {
+	background-color: rgba(0, 0, 0, .4);
+}
+
 .navigation ul {
 	margin: 0;
 	list-style-type: none;
@@ -86,31 +90,27 @@ a:hover {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	letter-spacing: 2px;
 	font-size: 15px;
+	color: white;
+	line-height: 1.3em;
 }
+
+	.footer > div {
+		height: 150px;
+		padding: 30px 20px 30px 20px;
+	}
 
 	.footer a,
 	.footer a:visited {
 		color: white;
 	}
 
-.dark {
-	background-color: rgba(0, 0, 0, .4);
-	height: 150px;
-}
-
-	.footer .container {
-		color: white;
-		padding: 30px 20px 30px 20px;
-		line-height: 1.3em;
+	.footer .contact {
+		text-align: right;
 	}
 
-		.footer .contact {
-			text-align: right;
-		}
-
-		.footer .copyright {
-			font-size: 10px;
-		}
+	.footer .copyright {
+		font-size: 10px;
+	}
 
 .body {
 	color: white;
