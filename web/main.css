@@ -51,6 +51,14 @@ a:hover {
 		background-color: rgba(200, 200, 120, .5);
 	}
 		
+			.header .headline a,
+			.header .headline a:visited,
+			.header .headline a:active,
+			.header .headline a:hover {
+				color: black;
+				text-decoration: none;
+			}
+
 	.header .contact {
 		font-size: 10px;
 		text-align: right;
