@@ -13,24 +13,6 @@ a:hover {
 	background-color: rgba(0, 0, 0, .4);
 }
 
-.navigation ul {
-	margin: 0;
-	list-style-type: none;
-	font-weight: bolder;
-	font-size: 1.2em;
-	text-align: center;
-	background-color: rgba(85, 85, 0, .3);
-}
-	
-	.navigation li {
-		display: inline-block;
-		padding: 20px;
-	}
-	
-	.navigation a {
-		color: white;
-	}
-	
 .banner {
 	height: 350px;
 	background-image: url('images/banner.jpg');
@@ -46,6 +28,24 @@ a:hover {
 		bottom: 0;
 		width: 100%;
 	}
+	
+		.navigation ul {
+			margin: 0;
+			list-style-type: none;
+			font-weight: bolder;
+			font-size: 1.2em;
+			text-align: center;
+			background-color: rgba(85, 85, 0, .3);
+		}
+	
+			.navigation li {
+				display: inline-block;
+				padding: 20px;
+			}
+	
+			.navigation a {
+				color: white;
+			}
 	
 	.banner .headline {
 		background-color: rgba(200, 200, 120, .5);
