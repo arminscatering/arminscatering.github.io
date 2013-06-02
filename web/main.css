@@ -138,8 +138,8 @@ a:hover {
 
 		.content > p:first-letter { 
 			font-size:140%;
-			background-color: rgba(250, 250, 0, .08);
-			box-shadow: 0 1px 15px 8px rgba(250, 250, 0, .1);
+/* 			background-color: rgba(250, 250, 0, .08); */
+/* 			box-shadow: 0 1px 15px 8px rgba(250, 250, 0, .1); */
 		}
 
 .panel {
@@ -225,5 +225,29 @@ h1 {
 		line-height: 1.7em;
 		font-size: 14px;
 		margin-bottom: 10px;
+	}
+
+.label {
+	width: 100px;
+	text-align: right;
+	background: none;
+	font-size: 14px;
+	padding-right: 10px;
+	font-weight: normal;
+}
+	
+.contact .side-image {
+	height: 600px;
+	background-image: url('images/side3.jpg');
+	background-position: 90% 40%;
+	background-size: 800px;
+}
+
+.content .contact {
+	padding: 20px;
+}
+
+	.content .contact .phone {
+		font-size: 140%;
 	}
 	
