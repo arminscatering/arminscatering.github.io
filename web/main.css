@@ -107,7 +107,7 @@ a:hover {
 }
 
 	.footer > div {
-		height: 150px;
+		height: 100px;
 		padding: 30px 20px 30px 20px;
 	}
 
@@ -207,7 +207,6 @@ h1 {
 	}
 
 .testimonials .side-image {
-	height: 600px;
 	background-image: url('images/side2.jpg');
 	background-position: 40% 40%;
 	background-size: 2200px;
@@ -235,9 +234,12 @@ h1 {
 	padding-right: 10px;
 	font-weight: normal;
 }
-	
-.contact .side-image {
+
+.side-image {
 	height: 600px;
+}
+
+.contact .side-image {
 	background-image: url('images/side3.jpg');
 	background-position: 90% 40%;
 	background-size: 800px;
@@ -252,7 +254,18 @@ h1 {
 	}
 	
 .menus .side-image {
-	height: 600px;
+	background-image: url('images/side2.jpg');
+	background-position: 90% 40%;
+	background-size: 800px;
+}
+
+.about .side-image {
+	background-image: url('images/side2.jpg');
+	background-position: 90% 40%;
+	background-size: 800px;
+}
+
+.event .side-image {
 	background-image: url('images/side2.jpg');
 	background-position: 90% 40%;
 	background-size: 800px;
