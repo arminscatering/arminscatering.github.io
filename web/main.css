@@ -186,6 +186,10 @@ h1 {
 		padding: 10px;
 	}
 
+		.home .testimonials blockquote {
+			padding: 0px;
+		}
+
 		.home .testimonials blockquote p {
 			font-size: 13px;
 			line-height: 1.7em;
