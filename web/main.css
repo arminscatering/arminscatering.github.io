@@ -97,7 +97,7 @@ a:hover {
 		
 .footer {
 	background-position: 50% 30%;
-	background-image: url('images/side2.jpg');
+	background-image: url('images/footer.jpg');
 	box-shadow: 0 1px 15px 4px #1a1a1a;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	letter-spacing: 2px;
@@ -213,7 +213,6 @@ h1 {
 .testimonials .side-image {
 	background-image: url('images/side2.jpg');
 	background-position: 40% 40%;
-	background-size: 2200px;
 }
 
 	.testimonials .testimonials blockquote small {
@@ -259,9 +258,8 @@ h1 {
 	}
 	
 .menus .side-image {
-	background-image: url('images/side2.jpg');
+	background-image: url('images/side4.jpg');
 	background-position: 20% 40%;
-	background-size: 800px;
 } 
 
 .menus .content ul {
@@ -285,13 +283,11 @@ h1 {
 }
 
 .about .side-image {
-	background-image: url('images/side2.jpg');
+	background-image: url('images/side1.jpg');
 	background-position: 90% 40%;
-	background-size: 800px;
 }
 
 .event .side-image {
-	background-image: url('images/wedding3.jpg');
+	background-image: url('images/side5.jpg');
 	background-position: 50% 40%;
-	background-size: 800px;
 }
